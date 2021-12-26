@@ -1,0 +1,66 @@
+body {
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.hidden{display:none;}
+
+.glass{
+    margin: auto auto;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#loginDiv {
+    width:500px;
+    height:100px;
+    position: absolute;
+    top:0; right:0;
+    bottom: 0; left: 0;
+    margin:auto;
+    padding: 100px;
+    text-align: center;
+}
+
+#contentDiv {
+    width:500px;
+    height:600px;
+    position: absolute;
+    top:0; right:0;
+    bottom: 0; left: 0;
+    margin:auto;
+    padding: 30px;
+    text-align: center;
+}
+
+#greeting {
+    margin:70px auto 10px;
+}
+
+#quoteDiv {
+    margin: 30px auto;
+}
+
+#quote, #author {
+    display: inline-block;
+    width:100%
+}
+
+ol, ul {
+    list-style: none;
+    margin:0px; padding:0px;
+    text-align: left;
+}
+
+#todoList {
+    height: 295px;
+    padding: 10px;
+    overflow: auto;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Momentum</title>
+
+    <script src="js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/weather.js"></script>
+</head>
+<body>
+<form id="loginForm">
+    <div id="loginDiv" class="glass">
+        <h1><label for="userName">Login</label></h1>
+        <input type="text" placeholder="what is yourname?" name="userName" id="userName" required />
+        <button type="submit" class="btnSubmit">Log in</button>
+    </div>
+</form>
+<div class="hidden glass" id="contentDiv">
+    <h1 id="greeting">Hello</h1>
+    <h2 id="clock">00:00:00</h2>
+    <div id="quoteDiv">
+        <span id="quote"></span>
+        <span id="author"></span>
+    </div>
+    <div id="weatherDiv"><span>날씨 가져오는 중...</span></div>
+    <form action="" id="todoForm">
+        <input type="text" placeholder="write ToDo and Press Enter" required autofocus />
+    </form>
+    <ul id="todoList"></ul>
+</div>
+</body>
+</html>
